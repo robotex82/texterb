@@ -14,7 +14,7 @@ module Texterb
     def call(template)
       compiled_source = erb_handler.call(template)
       if template.formats.include?(:html)
-        "Redcloth.new(begin;#{compiled_source};end).to_html.html_safe"
+        "RedCloth.new(begin;#{compiled_source};end).to_html.html_safe"
       else
         compiled_source
       end
