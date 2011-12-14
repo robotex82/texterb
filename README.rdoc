@@ -1,0 +1,9 @@
+= Texterb
+
+Texterb allows you to render multipart e-mails from a single template. The
+template is written in Textile, which is delivered as a text part, but also
+rendered and delivered as an HTML part.
+
+== Copyright and License
+
+Copied 99% form the markerb gem, created by the fine folks at PlataformaTec under the MIT-LICENSE (please check MIT-LICENSE file for more info).
