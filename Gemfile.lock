@@ -1,12 +1,13 @@
 PATH
   remote: .
   specs:
-    texterb (0.1.0)
-      redcloth
+    texterb (0.1.4)
+      RedCloth
 
 GEM
   remote: http://rubygems.org/
   specs:
+    RedCloth (4.2.9)
     abstract (1.0.0)
     actionmailer (3.0.7)
       actionpack (= 3.0.7)
@@ -74,5 +75,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  texterb!
   rails (= 3.0.7)
+  texterb!

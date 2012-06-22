@@ -1,2 +1,4 @@
 .bundle
 test/tmp
+*.gem
+.rvmrc
